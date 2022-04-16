@@ -1,0 +1,61 @@
+:root{
+    --White: hsl(0, 0%, 100%);
+    --Light-gray: hsl(212, 45%, 89%);
+    --Grayish-blue: hsl(220, 15%, 55%);
+    --Dark-blue: hsl(218, 44%, 22%);
+}
+
+/* --->> ESTILOS GENERALES <<--- */
+
+*{
+    box-sizing: border-box;
+}
+
+body{
+    margin: 0;
+    font-family: 'Outfit', sans-serif;
+    background-color: var(--Light-gray);
+}
+
+img{
+    max-width: 100%;
+    max-height: 100%;
+    display: block;
+}
+
+/* --->> TARJETA <<--- */
+
+.card-container{
+    width: 270px;
+    margin: auto;
+    margin-top: 10vh;
+    padding: 1rem;
+    background-color: var(--White);
+    border-radius: 20px;
+    text-align: center;
+}
+
+/* --->> IMAGEN TARJETA <<--- */
+
+.card__image{
+    border-radius: 10px;
+    overflow: hidden;
+}
+
+/* --->> DESCRIPCION <<--- */
+
+.card__title{
+    color: var(--Dark-blue);
+    font-weight: 700;
+    font-size: 20px;
+}
+.card__text{
+    color: var(--Grayish-blue);
+    font-weight: 400;
+    font-size: 15px;
+}
+
+/* --->> ATRIBUCION <<--- */
+
+.attribution { font-size: 11px; text-align: center; }
+.attribution a { color: hsl(228, 45%, 44%); }
